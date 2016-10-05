@@ -1,1 +1,6 @@
 
+1. The algorithms heavily depends on the input model, which includes the distribution of inputs.
+  For example, the sorting algorithm performance may be very different when the input does not have same key values or does.
+2. There are lower bound performance of algorithms, so do not try to break the bound, which will be impossible.
+  For example, the worst case of comparison sorting algorithm is NlogN, so do not try to design an algorithm which is even lower than that.
+  
